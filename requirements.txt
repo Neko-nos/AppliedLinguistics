@@ -1,0 +1,8 @@
+accelerate==0.32.1
+mlflow-skinny==2.11.3
+transformers==4.42.3
+# 最新版は公式チュートリアルでエラーがでるので一個手前にする
+# ref: https://github.com/google-gemini/generative-ai-python/issues/426
+google-generativeai==0.7.0
+ipykernel==6.29.5
+python-dotenv==1.0.1
