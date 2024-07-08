@@ -1,8 +1,13 @@
 # API Key
 .env
 
-# Llama Gurad2
-Meta-Llama-Gurad-2-8B
+# Models
+EvoVLM-JP-v1-7B/
+Meta-Llama-Guard-2-8B/
 
 # Virtual Environment
+__pycache__/
 env
+
+# 実験していたファイル
+experiment.ipynb
