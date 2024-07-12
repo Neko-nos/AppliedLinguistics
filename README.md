@@ -8,8 +8,10 @@ imagesフォルダに今回使用した写真が入っています。
 ## 1.1 Pythonの仮想環境の設定
 今回はpyenv + virtualenv + pipという構成をとっていますが、他のツールを使いたい場合は`.python-version`と`requiremnts.txt`を参照してください。以下では先に挙げた構成に基づいて説明を行います。
 
-まず、作業したいディレクトリ(以下ではAppliedLinguisticsと呼ぶことにします)において本レポジトリをcloneします。<br>
-`git clone https://github.com/Neko-nos/AppliedLinguistics.git` <br>
+まず、作業したいディレクトリ(以下ではAppliedLinguisticsと呼ぶことにします)において本レポジトリをcloneします。
+```Shell Script
+git clone https://github.com/Neko-nos/AppliedLinguistics.git
+```
 cloneしたくない場合はzipファイルをダウンロードできますのでそちらをご活用ください。
 
 次にコードが置いてあるディレクトリに移動してPythonの仮想環境を作ります。
@@ -39,8 +41,9 @@ https://ai.google.dev/gemini-api <br>
 GOOGLE_API_KEY={作成したAPI Key}
 ```
 ### 1.2.2 EvoVLM-JP-v1-7B
-以下のサイトからモデルをダウンロードして、作業ディレクトリ(AppliedLinguistics)にてEvoVLM-JP-v1-7Bという名前でファイル達を配置します。
+以下のサイトからモデルをダウンロードして、作業ディレクトリ(AppliedLinguistics)にてEvoVLM-JP-v1-7Bという名前でファイル達を配置します。<br>
 https://huggingface.co/SakanaAI/EvoVLM-JP-v1-7B
+
 ### 1.2.3 Llama Guard2
 以下のサイトからモデルをダウンロードするのですが、まだ承認を受けていない場合は指示に従って承認を得ます(私は数分ぐらいで貰えた記憶があります)。<br>
 https://huggingface.co/meta-llama/Meta-Llama-Guard-2-8B<br>
